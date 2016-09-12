@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\demo">
+      <UniqueIdentifier>{AE0F5DD2-9ADC-B7DD-C3F5-A585AF21ED6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tools">
+      <UniqueIdentifier>{DA11261F-467C-DA95-8FBA-8B3BFB63B8EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\demo">
+      <UniqueIdentifier>{8A2D086D-7690-9711-1F16-D0C70B586394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sl">
+      <UniqueIdentifier>{8405B9DA-70BD-FA27-D9C4-D383C59B9518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\tools">
+      <UniqueIdentifier>{36EB340F-A2AB-B045-6BE6-F9C2D765F521}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\demo\teapot.h">
+      <Filter>include\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sl\sethlans.h">
+      <Filter>include\sl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tools\input.h">
+      <Filter>include\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tools\math.h">
+      <Filter>include\tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\demo\main.c">
+      <Filter>src\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tools\input.c">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tools\math.c">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
